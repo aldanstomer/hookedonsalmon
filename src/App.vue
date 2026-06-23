@@ -5,7 +5,7 @@
       <!-- Hero -->
       <section
         class="relative min-h-screen flex flex-col justify-end gap-8 px-6 pb-12 text-center bg-cover bg-center"
-        style="background-image: linear-gradient(to bottom, rgba(111,15,47,0.05), rgba(255,250,246,0.96)), url('/src/assets/IMG_3575(1).png');"
+        style="background-image: linear-gradient(to bottom, rgba(111,15,47,0.05), rgba(255,250,246,0.96)), url('/IMG_3575.png');"
       >
         <div>
 
@@ -158,13 +158,13 @@
 
       <!-- RSVP -->
       <section class="px-6 py-12">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiFLvlHTZUMy5RCQacDMphJ1IQH0tDf4EX_QYPEHbA5k4_ZA/viewform?embedded=true" width="100%" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiFLvlHTZUMy5RCQacDMphJ1IQH0tDf4EX_QYPEHbA5k4_ZA/viewform?embedded=true" width="100%" height="1350" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </section>
 
       <!-- Thank You -->
       <section
         class="relative min-h-screen flex items-end justify-center px-6 pb-20 text-center bg-cover bg-center"
-        style="background-image: linear-gradient(to bottom, rgba(255,250,246,0.05), rgba(255,250,246,0.95)), url('/src/assets/IMG_3576.JPG');"
+        style="background-image: linear-gradient(to bottom, rgba(255,250,246,0.05), rgba(255,250,246,0.95)), url('/IMG_3576.JPG');"
       >
         <div class="w-full">
           <h2 class="font-serif italic text-6xl text-[#b39a72] drop-shadow-sm">
