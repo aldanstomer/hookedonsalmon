@@ -14,31 +14,31 @@
           </h1>
 
           <p class="tracking-[0.25em] text-sm uppercase text-[#4a071d]">
-            Invite you to their wedding celebration
+            Invite you to their marriage ceremony
           </p>
         </div>
 
-<div class="bg-white/70 backdrop-blur-sm rounded-3xl py-4 px-6 shadow-lg border border-[#f3c7cf]">
+        <div class="bg-white/70 backdrop-blur-sm rounded-3xl py-4 px-6 shadow-lg border border-[#f3c7cf]">
 
-  <p class="uppercase tracking-[0.4em] text-xs text-[#6f0f2f] mb-3">
-    Save The Date
-  </p>
+        <p class="uppercase tracking-[0.4em] text-xs text-[#6f0f2f] mb-3">
+            Save The Date
+        </p>
 
-  <h2 class="font-serif text-4xl text-[#6f0f2f] leading-none">
-    August 08
-  </h2>
+        <h2 class="font-serif text-4xl text-[#6f0f2f] leading-none">
+            August 08
+        </h2>
 
-  <p class="font-serif text-2xl text-[#d8a0aa] mt-2">
-    2026
-  </p>
+        <p class="font-serif text-2xl text-[#d8a0aa] mt-2">
+            2026
+        </p>
 
-  <div class="w-20 h-px bg-[#c8a45d] mx-auto my-3"></div>
+        <div class="w-20 h-px bg-[#c8a45d] mx-auto my-3"></div>
 
-  <p class="uppercase tracking-[0.25em] text-sm text-[#4a071d]">
-    Saturday • 2:00 PM
-  </p>
+        <p class="uppercase tracking-[0.25em] text-sm text-[#4a071d]">
+            Saturday • 11:00 AM
+        </p>
 
-</div>
+        </div>
       </section>
 
       <!-- Countdown -->
@@ -53,19 +53,19 @@
 
         <div class="grid grid-cols-4 gap-2 text-center">
           <div>
-            <p class="font-serif text-3xl text-[#6f0f2f]">454</p>
+            <p class="font-serif text-3xl text-[#6f0f2f]">{{ time.days }}</p>
             <span class="text-[10px] uppercase text-[#4a071d]">Days</span>
           </div>
           <div>
-            <p class="font-serif text-3xl text-[#6f0f2f]">12</p>
+            <p class="font-serif text-3xl text-[#6f0f2f]">{{ time.hours }}</p>
             <span class="text-[10px] uppercase text-[#4a071d]">Hours</span>
           </div>
           <div>
-            <p class="font-serif text-3xl text-[#6f0f2f]">18</p>
+            <p class="font-serif text-3xl text-[#6f0f2f]">{{ time.minutes }}</p>
             <span class="text-[10px] uppercase text-[#4a071d]">Minutes</span>
           </div>
           <div>
-            <p class="font-serif text-3xl text-[#6f0f2f]">45</p>
+            <p class="font-serif text-3xl text-[#6f0f2f]">{{ time.seconds }}</p>
             <span class="text-[10px] uppercase text-[#4a071d]">Seconds</span>
           </div>
         </div>
@@ -84,16 +84,16 @@
           </div>
 
           <div class="px-5 py-6">
-            <p class="font-serif text-lg text-[#6f0f2f]">Divine Destiny and Purpose Church of God</p>
+            <p class="font-serif text-lg text-[#6f0f2f]">Eastwood Park New Testament Church</p>
             <p class="text-xs uppercase tracking-widest mt-2 text-[#4a071d]">
-              Rectory Rd<br />
-              Kingston
+              49-51 Eastwood Park Road<br>
+              Kingston 10
             </p>
           </div>
         </div>
 
         <a
-          href="https://www.google.com/maps/place/Kingston,+Jamaica/@18.0180372,-76.9565529,12z"
+          href="https://maps.app.goo.gl/wZ7XhAh48vekRScM9?g_st=iw"
           class="mt-8 inline-block rounded-full border border-[#c8a45d] bg-gradient-to-r from-[#f4e7cf] via-[#fffaf6] to-[#f4e7cf] px-10 py-3 font-serif text-lg uppercase shadow-md text-[#4a071d]"
         >
           Google Map
@@ -102,42 +102,48 @@
 
       <!-- Timeline -->
       <section class="px-6 py-12 text-center bg-[#f3c7cf]/40">
-        <h2 class="font-serif text-4xl uppercase text-[#6f0f2f]">Wedding</h2>
-        <p class="font-serif italic text-2xl mb-8 text-[#d8a0aa]">timeline</p>
+        <p class="font-serif italic text-2xl text-[#d8a0aa]">Wedding</p>
+        <h2 class="font-serif text-4xl uppercase tracking-wide text-[#6f0f2f]">Timeline</h2>
+        <div class="w-20 h-px bg-[#c8a45d] mx-auto my-6"></div>
 
         <div class="space-y-6 text-sm">
           <div>
-            <p class="font-bold text-[#6f0f2f]">1:30</p>
+            <p class="font-bold text-[#6f0f2f]">11:00 AM</p>
             <p class="uppercase tracking-widest text-[#4a071d]">Seating Begins</p>
           </div>
           <div>
-            <p class="font-bold text-[#6f0f2f]">2:00</p>
+            <p class="font-bold text-[#6f0f2f]">11:30 AM</p>
             <p class="uppercase tracking-widest text-[#4a071d]">Ceremony</p>
           </div>
         </div>
       </section>
 
       <!-- Reception -->
-      <section class="px-6 py-12 text-center bg-[#6f0f2f] text-[#fffaf6]">
-        <SectionTitle title="Reception" dark />
+<section class="px-6 py-12 text-center bg-[#6f0f2f] text-[#fffaf6]">
 
-        <p class="text-xs leading-6 uppercase tracking-wide">
-          We would be delighted for you to join us for an evening of celebration immediately following the ceremony.
-        </p>
+  <p class="font-serif italic text-2xl text-[#f4e7cf]">
+    the
+  </p>
 
-        <SectionTitle title="Dress Code" dark class="mt-8" />
+  <h2 class="font-serif text-4xl uppercase tracking-wide text-white">
+    Dress Code
+  </h2>
 
-        <div class="space-y-5 text-xs uppercase mt-4">
-          <div>
-            <p class="text-[#f4e7cf]">For men:</p>
-            <p class="font-serif text-lg">Suit & Tie</p>
-          </div>
-          <div>
-            <p class="text-[#f4e7cf]">For women:</p>
-            <p class="font-serif text-lg">Cocktail Dress</p>
-          </div>
-        </div>
-      </section>
+  <div class="w-20 h-px bg-[#c8a45d] mx-auto my-6"></div>
+
+  <div class="space-y-5 text-xs uppercase mt-4">
+    <div>
+      <p class="text-[#f4e7cf]">For men:</p>
+      <p class="font-serif text-lg">Suit & Tie</p>
+    </div>
+
+    <div>
+      <p class="text-[#f4e7cf]">For women:</p>
+      <p class="font-serif text-lg">Cocktail Dress</p>
+    </div>
+  </div>
+
+</section>
 
       <!-- Registry -->
       <section class="px-6 py-12 text-center bg-[#fff1f3]">
@@ -186,6 +192,51 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onUnmounted } from 'vue'
+
+const weddingDate = new Date('2026-08-08T11:00:00')
+
+const time = ref({
+  days: 0,
+  hours: 0,
+  minutes: 0,
+  seconds: 0
+})
+
+let timer
+
+function updateCountdown() {
+  const now = new Date()
+  const difference = weddingDate - now
+
+  if (difference <= 0) {
+    clearInterval(timer)
+
+    time.value = {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0
+    }
+
+    return
+  }
+
+  time.value.days = Math.floor(difference / (1000 * 60 * 60 * 24))
+  time.value.hours = Math.floor((difference / (1000 * 60 * 60)) % 24)
+  time.value.minutes = Math.floor((difference / (1000 * 60)) % 60)
+  time.value.seconds = Math.floor((difference / 1000) % 60)
+}
+
+onMounted(() => {
+  updateCountdown()
+  timer = setInterval(updateCountdown, 1000)
+})
+
+onUnmounted(() => {
+  clearInterval(timer)
+})
+
 const SectionTitle = {
   props: ['title', 'dark'],
   template: `

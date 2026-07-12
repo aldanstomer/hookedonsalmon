@@ -31,15 +31,6 @@
           <p class="mt-2 text-xs uppercase tracking-widest">Open Registry</p>
         </a>
 
-        <a
-          href="https://onelink.shein.com/39/5tois0w3c3p4"
-          target="_blank"
-          class="block rounded-2xl border border-[#c8a45d] bg-[#fff1f3] p-5 text-center"
-        >
-          <h2 class="font-serif text-2xl text-[#6f0f2f]">SHEIN Wishlist</h2>
-          <p class="mt-2 text-xs uppercase tracking-widest">Open Wishlist</p>
-        </a>
-
         <div class="rounded-2xl border border-[#c8a45d] bg-[#fff1f3] p-5 text-center">
           <h2 class="font-serif text-2xl text-[#6f0f2f]">Monetary Contributions</h2>
 
