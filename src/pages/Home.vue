@@ -84,16 +84,16 @@
           </div>
 
           <div class="px-5 py-6">
-            <p class="font-serif text-lg text-[#6f0f2f]">Eastwood Park New Testament Church</p>
+            <p class="font-serif text-lg text-[#6f0f2f]">Divine Destiny and Purpose Church of God</p>
             <p class="text-xs uppercase tracking-widest mt-2 text-[#4a071d]">
-              49-51 Eastwood Park Road<br>
-              Kingston 10
+              Rectory Road, May Pen<br>
+              Clarendon
             </p>
           </div>
         </div>
 
         <a
-          href="https://maps.app.goo.gl/wZ7XhAh48vekRScM9?g_st=iw"
+          href="https://www.google.com/maps/place/17%C2%B059'01.6%22N+77%C2%B014'39.6%22W/@17.983763,-77.2468989,17z/data=!3m1!4b1!4m4!3m3!8m2!3d17.983763!4d-77.244324?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D"
           class="mt-8 inline-block rounded-full border border-[#c8a45d] bg-gradient-to-r from-[#f4e7cf] via-[#fffaf6] to-[#f4e7cf] px-10 py-3 font-serif text-lg uppercase shadow-md text-[#4a071d]"
         >
           Google Map
@@ -108,11 +108,11 @@
 
         <div class="space-y-6 text-sm">
           <div>
-            <p class="font-bold text-[#6f0f2f]">11:00 AM</p>
+            <p class="font-bold text-[#6f0f2f]">1:30 PM</p>
             <p class="uppercase tracking-widest text-[#4a071d]">Seating Begins</p>
           </div>
           <div>
-            <p class="font-bold text-[#6f0f2f]">11:30 AM</p>
+            <p class="font-bold text-[#6f0f2f]">2:00 PM</p>
             <p class="uppercase tracking-widest text-[#4a071d]">Ceremony</p>
           </div>
         </div>
@@ -163,7 +163,7 @@
 
       <!-- RSVP -->
       <section class="px-6 py-12">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiFLvlHTZUMy5RCQacDMphJ1IQH0tDf4EX_QYPEHbA5k4_ZA/viewform?embedded=true" width="100%" height="1350" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiFLvlHTZUMy5RCQacDMphJ1IQH0tDf4EX_QYPEHbA5k4_ZA/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </section>
 
       <!-- Thank You -->
