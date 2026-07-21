@@ -35,7 +35,7 @@
         <div class="w-20 h-px bg-[#c8a45d] mx-auto my-3"></div>
 
         <p class="uppercase tracking-[0.25em] text-sm text-[#4a071d]">
-            Saturday • 11:00 AM
+            Saturday • 2:00 PM
         </p>
 
         </div>
@@ -194,7 +194,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
-const weddingDate = new Date('2026-08-08T11:00:00')
+const weddingDate = new Date('2026-08-08T14:00:00')
 
 const time = ref({
   days: 0,
